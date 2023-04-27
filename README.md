@@ -2,7 +2,7 @@
 
 # Curriculum
 
-Day 1: Introduction to Programming, Golang, and Setting Up Your Go Environment
+Day 1 (27 Apr 2023): Introduction to Programming, Golang, and Setting Up Your Go Environment
 
 * Introduction to programming concepts
 * Introduction to Golang 
