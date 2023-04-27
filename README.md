@@ -11,7 +11,7 @@ Day 1: Introduction to Programming, Golang, and Setting Up Your Go Environment
     * Resource:[ Getting Started](https://golang.org/doc/install)	
 * Exercise: Set up your Go environment and run a simple "Hello, World!" program.
 
-Day 2: Hello World, Basic Syntax, Variables & Constants
+Day 2 (28 Apr 2023): Hello World, Basic Syntax, Variables & Constants
 
 
 
