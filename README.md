@@ -22,7 +22,7 @@ Day 2: Hello World, Basic Syntax, Variables & Constants
     * Resource:[ Go by Example - Variables](https://gobyexample.com/variables)
 * Exercise: Write a program that reads your name from the command line and greets you with "Hello, [Your Name]!".
 
-Day 3: Basic Data Types, Operators and Type Conversion
+Day 3 (29 Apr 2023): Basic Data Types, Operators and Type Conversion
 
 
 
