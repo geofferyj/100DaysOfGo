@@ -3,18 +3,20 @@ package main
 import "fmt"
 
 func main() {
-	num1 := 100
-	num2 := 20
-	num3 := 30
+	// Input the three numbers
+	var a, b, c int
+	fmt.Println("Enter three integers separated by space:")
+	fmt.Scanln(&a, &b, &c)
 
-
-	//find the largest number
-
-	if num1 >= num2 && num1 >= num3 {
-		fmt.Println("num1 is the largest number")
-	} else if num2 >= num1 && num2 >= num3 {
-		fmt.Println("num2 is the largest number")
-	} else {
-		fmt.Println("num3 is the largest number")
+	// Determine the largest number
+	largest := a
+	if b > largest {
+		largest = b
 	}
+	if c > largest {
+		largest = c
+	}
+
+	// Print the result
+	fmt.Printf("The largest number is: %d\n", largest)
 }
