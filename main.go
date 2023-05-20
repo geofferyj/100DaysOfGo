@@ -1,35 +1,23 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"os"
-	"strconv"
-	"strings"
 )
 
-func main() {
-
-	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter your score: ")
-	text, _ := reader.ReadString('\n')
-
-	score, _ := strconv.Atoi(strings.TrimSpace(text))
-	var grade string
-
-	switch {
-	case score >= 80:
-		grade = "A"
-	case score >= 70:
-		grade = "B"
-	case score >= 60:
-		grade = "C"
-	case score >= 50:
-		grade = "D"
-	default:
-		grade = "F"
-	}
-
-	fmt.Println("Your grade is", grade)
-
+func main(){
+Fibo(10)
 }
+
+func Fibo(n int) {
+	f0 := 0
+	f1 := 1
+	f2 := 1
+
+	for i :=0; i<=n; i++ {
+		fmt.Println(f0)
+		f0 = f1
+		f1 = f2
+		f2 = f0 + f1
+	}
+}
+
