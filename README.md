@@ -86,110 +86,111 @@ Day 10: Control Structures: Range
 * Resource:[ Go by Example - Range](https://gobyexample.com/range)
 * Exercise: Write a program that calculates the sum of elements in an integer slice.
 
-Day 11: Functions
-
-
-
-* Resource:[ Go by Example - Functions](https://gobyexample.com/functions)
-* Exercise: Implement a function to calculate the factorial of a given number.
-
-Day 12: Multiple Return Values
-
-
-
-* Resource:[ Go by Example - Multiple Return Values](https://gobyexample.com/multiple-return-values)
-* Exercise: Write a function that returns the minimum and maximum elements of an integer slice.
-
-Day 13: Variadic Functions
-
-
-
-* Resource:[ Go by Example - Variadic Functions](https://gobyexample.com/variadic-functions)
-* Exercise: Implement a variadic function that returns the average of a series of integers.
-
-Day 14: Closures
-
-
-
-* Resource:[ Go by Example - Closures](https://gobyexample.com/closures)
-* Exercise: Write a closure to create a sequence of numbers.
-
-Day 15: Recursion
-
-
-
-* Resource:[ Go by Example - Recursion](https://gobyexample.com/recursion)
-* Exercise: Implement a recursive function to find the nth Fibonacci number.
-
-Day 16: Methods
-
-
-
-* Resource:[ Go by Example - Methods](https://gobyexample.com/methods)
-* Exercise: Implement a method for a "Circle" struct that calculates the area.
-
-Day 17: Interfaces
-
-
-
-* Resource:[ Go by Example - Interfaces](https://gobyexample.com/interfaces)
-* Exercise: Create an interface "Shape" with a method "Area()" and implement it for different structs (e.g., "Circle" and "Rectangle").
-
-Day 18: Errors
-
-
-
-* Resource:[ Go by Example - Errors](https://gobyexample.com/errors)
-* Exercise: Implement a custom error type to handle division by zero in a division function.
-
-Day 19: Error Handling
-
-
-
-* Resource:[ Error Handling in Go](https://blog.golang.org/error-handling-and-go)
-* Exercise: Refactor the division function to handle errors using multiple return values.
-
-Day 20: Custom Error Types
-
-
-
-* Resource:[ Creating Custom Error Types in Go](https://dave.cheney.net/2014/12/24/inspecting-errors)
-* Exercise: Create a custom error type to handle file-not-found errors in a file reading function.
-
-Day 21: Structs
-
-
-
-* Resource:[ Go by Example - Structs](https://gobyexample.com/structs)
-* Exercise: Create a "Student" struct with methods for adding and retrieving grades.
-
-Day 22: Pointers
-
-
-
-* Resource:[ Go by Example - Pointers](https://gobyexample.com/pointers)
-* Exercise: Implement a function that swaps the values of two integer variables using pointers.
-
-Day 23: Arrays
+Day 11: Arrays
 
 
 
 * Resource:[ Go by Example - Arrays](https://gobyexample.com/arrays)
 * Exercise: Write a program that reads an array of integers and reverses it.
 
-Day 24: Slices
+Day 12: Slices
 
 
 
 * Resource:[ Go by Example - Slices](https://gobyexample.com/slices)
 * Exercise: Implement a function that removes a specific element from a slice.
 
-Day 25: Maps
+Day 13: Maps
 
 
 
 * Resource:[ Go by Example - Maps](https://gobyexample.com/maps)
 * Exercise: Write a program that counts the frequency of words in a string using a map.
+
+Day 14: Functions
+
+
+
+* Resource:[ Go by Example - Functions](https://gobyexample.com/functions)
+* Exercise: Implement a function to calculate the factorial of a given number.
+
+Day 15: Multiple Return Values
+
+
+
+* Resource:[ Go by Example - Multiple Return Values](https://gobyexample.com/multiple-return-values)
+* Exercise: Write a function that returns the minimum and maximum elements of an integer slice.
+
+Day 16: Variadic Functions
+
+
+
+* Resource:[ Go by Example - Variadic Functions](https://gobyexample.com/variadic-functions)
+* Exercise: Implement a variadic function that returns the average of a series of integers.
+
+Day 17: Closures
+
+
+
+* Resource:[ Go by Example - Closures](https://gobyexample.com/closures)
+* Exercise: Write a closure to create a sequence of numbers.
+
+Day 18: Recursion
+
+
+
+* Resource:[ Go by Example - Recursion](https://gobyexample.com/recursion)
+* Exercise: Implement a recursive function to find the nth Fibonacci number.
+
+Day 19: Methods
+
+
+
+* Resource:[ Go by Example - Methods](https://gobyexample.com/methods)
+* Exercise: Implement a method for a "Circle" struct that calculates the area.
+
+Day 20: Interfaces
+
+
+
+* Resource:[ Go by Example - Interfaces](https://gobyexample.com/interfaces)
+* Exercise: Create an interface "Shape" with a method "Area()" and implement it for different structs (e.g., "Circle" and "Rectangle").
+
+Day 21: Errors
+
+
+
+* Resource:[ Go by Example - Errors](https://gobyexample.com/errors)
+* Exercise: Implement a custom error type to handle division by zero in a division function.
+
+Day 22: Error Handling
+
+
+
+* Resource:[ Error Handling in Go](https://blog.golang.org/error-handling-and-go)
+* Exercise: Refactor the division function to handle errors using multiple return values.
+
+Day 23: Custom Error Types
+
+
+
+* Resource:[ Creating Custom Error Types in Go](https://dave.cheney.net/2014/12/24/inspecting-errors)
+* Exercise: Create a custom error type to handle file-not-found errors in a file reading function.
+
+Day 24: Structs
+
+
+
+* Resource:[ Go by Example - Structs](https://gobyexample.com/structs)
+* Exercise: Create a "Student" struct with methods for adding and retrieving grades.
+
+Day 25: Pointers
+
+
+
+* Resource:[ Go by Example - Pointers](https://gobyexample.com/pointers)
+* Exercise: Implement a function that swaps the values of two integer variables using pointers.
+
 
 Day 26: Composition & Embedding (continued)
 
