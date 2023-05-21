@@ -3,13 +3,11 @@ package main
 import "fmt"
 
 func main(){
-	numbers := []int{1,3,4,5,6,5,4,5,6}
-	sum := 0
+	s := [7]string{"mango", "banana", "apple", "kiwi", "pineapple", "orange", "grape"}
 
-	for index, number := range numbers {
-		fmt.Println(index, number)
-		sum += number
+	for index, value := range s {
+		s[len(s) - index-1] = value
 	}
 
-	fmt.Println("Sum: ", sum)
+	fmt.Println(s)
 }
