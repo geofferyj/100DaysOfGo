@@ -2,12 +2,18 @@ package main
 
 import "fmt"
 
-func main(){
-	s := [7]string{"mango", "banana", "apple", "kiwi", "pineapple", "orange", "grape"}
+func main() {
 
-	for index, value := range s {
-		s[len(s) - index-1] = value
+	arr := []string{"a", "b", "c", "d", "e", "f", "g"}
+
+	fmt.Println(deleteElem(arr, "c"))
+}
+
+func deleteElem(arr []string, elem string) []string {
+	for i, v := range arr {
+		if v == elem {
+			arr = append(arr[:i], arr[i+1:]...)
+		}
 	}
-
-	fmt.Println(s)
+	return arr
 }
